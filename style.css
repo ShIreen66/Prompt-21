@@ -5,14 +5,15 @@ body {
 
 .container {
 	width: 80%;
-	margin: 40px auto;
+	margin: 10px auto;
 	text-align: center;
 }
 
 .countdown {
 	font-size: 48px;
 	margin-bottom: 20px;
-    color: wheat;
+    color: white;
+    font-weight: 900;
 }
 
 .countdown span {
@@ -20,7 +21,7 @@ body {
 }
 
 .buy-now {
-	background-color: #4CAF50;
+	background-color: #317d34;
 	color: #fff;
 	padding: 10px 20px;
 	border: none;
