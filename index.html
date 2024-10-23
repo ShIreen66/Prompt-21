@@ -1,40 +1,38 @@
 <!-- Create a product launch landing page with a countdown timer and purchase options -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Launch</title>
-    <link rel="stylesheet" href="style.css">
+	<title>Product Launch</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="conatiner">
-        <h1>Coming Soon</h1>
-        <p>Get ready for the most exciting product of the year.</p>
-    </div>
+	<div class="container">
+		<h1>Product Launch</h1>
+		<p>Get ready for the most awaited product of the year!</p>
+		<div class="countdown">
+			<span id="days">00</span> :
+			<span id="hours">00</span> :
+			<span id="minutes">00</span> :
+			<span id="seconds">00</span>
+		</div>
+		<button class="buy-now">Buy Now</button>
+		<div class="purchase-options">
+			<h2>Purchase Options</h2>
+			<ul>
+				<li>
+					<h3>Basic Plan</h3>
+					<p>$99</p>
+					<button class="buy-basic">Buy Basic</button>
+				</li>
+				<li>
+					<h3>Premium Plan</h3>
+					<p>$199</p>
+					<button class="buy-premium">Buy Premium</button>
+				</li>
+			</ul>
+		</div>
+	</div>
 
-    <!-- countdown -->
-     <div class="countdown">
-        <h1>Launching In</h1>
-        <div id="timer">
-            <span id="days">00</span>Days
-            <span id="hours">00</span>Hours
-            <span id="minutes">00</span>Minutes
-            <span id="seconds">00</span>Seconds
-        </div>
-     </div>
-
-     <!-- option -->
-      <div class="purchase-options">
-        <h3>Pre-Order Now</h3>
-        <div class="options">
-            <div class="option">
-                <h4>Basic Package</h4>
-                <p>$49.99</p>
-          <button class="buy-btn">Buy Now</button>
-            </div>
-        </div>
-      </div>
-    <script src="script.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
