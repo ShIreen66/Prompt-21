@@ -1,6 +1,6 @@
 // Countdown timer
 const countdown = document.querySelector('.countdown');
-const launchDate = new Date('2024-10-25T00:00:00'); // Replace with your launch date
+const launchDate = new Date('2024-10-25T00:00:00'); 
 
 function updateCountdown() {
 	const now = new Date();
@@ -23,7 +23,6 @@ function updateCountdown() {
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
-// Purchase options
 const buyBasic = document.querySelector('.buy-basic');
 const buyPremium = document.querySelector('.buy-premium');
 
